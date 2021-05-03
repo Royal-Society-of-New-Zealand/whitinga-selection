@@ -3,7 +3,7 @@
 # whitinga-selection.r 2021-05-03 10:39:21Z
 
 #excellence threshold to be determined by the panel 
-whitinga_selection_excellence <- function(dataframe, ma = 5, pa = 3, ff = 15, fe = 30, threshold = 4.0){
+whitinga_selection_excellence <- function(dataframe, ma = 5, pa = 3, ff = 15, fe = 30, threshold = 3.5){
     # exlude applicants with scores below threshold
     dataframe <- filter(dataframe, Score >= threshold)
     
