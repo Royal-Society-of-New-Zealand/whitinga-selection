@@ -15,7 +15,7 @@ whitinga_selection_excellence(dataframe, ma = 5, pa = 3, ff = 15, fe = 30, thres
 *ma*        the target minimum draw for Māori fellows  
 *pa*        the target minimum draw for Pacific Nation fellows  
 *ff*        the target minimum draw for female fellows  
-*fe*        the total number of fellows to draw
+*fe*        the total number of fellows to draw  
 *threshold* the minimum excellence score to be considered for the ballot.
 
 ## Details
